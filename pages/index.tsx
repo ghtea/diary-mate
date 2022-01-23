@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 const HomeContainer = styled.div`
   background-color: red;
+  color: ${props => props.theme.colors.textDisabled};
 `
 
 const Home: NextPage = () => {
